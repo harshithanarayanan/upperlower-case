@@ -1,0 +1,33 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        char c = s.next().charAt(0);
+        if(c>=65 && c<=90)
+        {
+            System.out.println("The Given Character " +c+ " is Upper Case...");
+        }
+        else if(c>=97 && c<=122)
+        {
+            System.out.println("The Given Character " +c+ " is Lower Case...");
+        }
+        else if(c>=48 && c<=57)
+        {
+            System.out.println("The Given Character " + c + " is Number...");
+        }
+        else
+        {
+            System.out.println("The Given Character " + c + " is Symbol...");
+        }
+        
+
+        
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+    }
+}
